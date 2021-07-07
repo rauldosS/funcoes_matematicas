@@ -2,6 +2,8 @@
 public class Main {
 
 	public static void main(String[] args) {
+		// Java.lang.Math
+		
 		double x = 3.0;
 		double y = 4.0;
 		double z = -5.0;
@@ -28,6 +30,17 @@ public class Main {
 		
 		System.out.println("Valor absoluto de " + y + " = " + A);
 		System.out.println("Valor absoluto de " + z + " = " + B);
+		
+		double a, b, c, delta, x1, x2;
+		
+		a = 10;
+		b = 10;
+		c = 10;
+		
+		delta = Math.pow(b, 2.0) - 4*a*c;
+		
+		x1 = (-b + Math.sqrt(delta)) / (2.0 * a);
+		x2 = (-b - Math.sqrt(delta)) / (2.0 * a);
 	}
 
 }
